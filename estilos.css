@@ -36,3 +36,17 @@ body{
 .container1{
     max-width: 500px;
 }
+
+.boton{
+    color: rgb(169, 17, 100);
+    background-color: rgb(237, 210, 40);
+    border-color: rgb(237, 210, 40);
+    border-radius: 50px;
+    padding: 18px;
+    margin-left: 60px;
+    margin-top: 20px;
+    margin-bottom: 30px;
+    font-size: 21px;
+    text-decoration: none;
+    outline: none;
+}
