@@ -1,5 +1,6 @@
 body{
     font-family: "poppins";
+    margin: 0px;
 }
 
 .texto-header{
@@ -19,6 +20,8 @@ body{
     width:"180";
     height:"70";
     margin-bottom: -20px;
+    margin: 0px;
+    padding-top: 40px;
 }
 
 .pregunta1{
@@ -63,4 +66,19 @@ body{
     background-color: rgb(229, 243, 243);
     font-size: 16px;
     font-weight: 400;
+}
+
+.parrafo_c strong{
+    font-size: 32px;
+}
+
+.parrafo_c{
+    margin: 0px;
+    padding: 180px;
+    text-align: center;
+    font-size: 22px;
+}
+
+.container3{
+    background: linear-gradient(rgb(131, 27, 122), rgb(160, 14, 87) );
 }
