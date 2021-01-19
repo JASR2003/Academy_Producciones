@@ -101,10 +101,27 @@ body{
 }
 
 .contenido{
-    border: black solid 2px;
-    display: flex;
+    display: flex;   
 }
 
 .icon{
     border-color: rgb(253, 212, 22);
+    display: table-cell;
+    vertical-align: middle;
+    text-align: center;
+    padding: 0px 10px;
+}
+
+.icono{
+    font-size: 40px;
+}
+
+.strong{
+    font-size: 24px;
+}
+
+.icon p{
+    color: white;
+    font-size: 12px;
+    text-align: justify;
 }
