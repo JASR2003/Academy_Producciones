@@ -3,13 +3,7 @@ body{
     margin: 0px;
 }
 
-.texto-header{
-    color: white;
-    padding-left: 70px;
-    font-size: 13.5px;
-    margin-top: -60px;
-    text-align: justify;
-}
+/* header */
 
 .header{
     background: linear-gradient(rgb(131, 27, 122), rgb(160, 14, 87) );
@@ -22,6 +16,10 @@ body{
     margin-bottom: -20px;
     margin: 0px;
     padding-top: 40px;
+}
+
+.container1{
+    max-width: 500px;
 }
 
 .pregunta1{
@@ -37,8 +35,12 @@ body{
     color: rgb(237, 210, 43);
 }
 
-.container1{
-    max-width: 500px;
+.texto-header{
+    color: white;
+    padding-left: 70px;
+    font-size: 13.5px;
+    margin-top: -60px;
+    text-align: justify;
 }
 
 .boton{
@@ -60,14 +62,12 @@ body{
     color: white;
 }
 
+/* container2 */
+
 .container2{
     background-color: rgb(229, 243, 243);
     font-size: 16px;
     font-weight: 400;
-}
-
-.parrafo_c strong{
-    font-size: 32px;
 }
 
 .parrafo_c{
@@ -76,6 +76,12 @@ body{
     text-align: center;
     font-size: 22px;
 }
+
+.parrafo_c strong{
+    font-size: 32px;
+}
+
+/* container3 */
 
 .container3{
     background: linear-gradient( rgb(160, 14, 87), rgb(131, 27, 122) );
@@ -112,10 +118,6 @@ body{
     padding: 0px 10px;
 }
 
-.icono{
-    font-size: 40px;
-}
-
 .strong{
     font-size: 24px;
 }
@@ -124,4 +126,39 @@ body{
     color: white;
     font-size: 12px;
     text-align: justify;
+}
+
+/* container4 */
+
+.container4{
+    background-color: rgb(229, 243, 243);
+    font-size: 16px;
+    font-weight: 400;
+    text-align: center;
+}
+
+.container4 p{
+    margin-top: 0px;
+    padding-top: 90px;
+    font-size: 76px;
+}
+
+.boton2{
+    background-color: rgb(169, 17, 100);
+    color: rgb(237, 210, 40);
+    border-radius: 50px;
+    padding: 22px 32px;
+    margin-top: 20px;
+    margin-bottom: 30px;
+    font-size: 19px;
+    text-decoration: none;
+    outline: none;
+    border: none;
+
+}
+
+.boton2:hover{
+    background-color: transparent;
+    color: rgb(27, 36, 35);
+    border: rgb(27, 36, 35) solid 3px;
 }
