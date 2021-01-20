@@ -111,7 +111,7 @@ body{
 
 .contenido{
     display: flex;
-    margin: auto 100px;   
+    margin: auto 100px;
 }
 
 .icon{
@@ -186,7 +186,62 @@ body{
 .boton2:hover{
     background-color: transparent;
     color: rgb(27, 36, 35);
-    border: rgb(27, 36, 35) solid 3px;
+    border: rgb(27, 36, 35) solid 5px;
 }
 
 /* container5 */
+
+.container5{
+    background: linear-gradient(  rgb(131, 27, 122), rgb(160, 14, 87));
+}
+
+/* .container6 */
+
+.container6{
+    width: 45%;
+}
+
+.container6 p{
+    margin-left: 80px;
+}
+
+.text{
+    text-align: center;
+    font-size: 50px;
+}
+
+.texto{
+    margin-top: -40px;
+    text-align: justify;
+    font-size: 15.5px;
+}
+
+.container6 button{
+    margin-left: 80px;
+}
+
+/* container7 */
+
+.container7{
+    background: linear-gradient( rgb(160, 14, 87), rgb(131, 27, 122) );
+}
+
+.container7 p{
+    color: rgb(254, 213, 23);
+    text-align: center;
+    font-size: 60px;
+    padding-top: 60px;
+    padding-bottom: 300px;
+}
+
+/* container8 */
+
+.container8 p{
+    color: rgb(27, 36, 35);
+    text-align: center;
+    font-size: 60px;
+    padding-top: 0px;
+    padding-bottom: 300px;
+}
+
+/* container9 */
