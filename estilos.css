@@ -365,20 +365,16 @@ font-size: 310px;
 }
 
 @media screen and (max-width: 1280px){
-/* container1 no hay nada que hacer, ese queda igual */
+/* en todos los containers menos el 2 no hay nada que hacer, ese queda igual */
 
 /* container2 se le baja el font size */
 
 .container2{
-    /* background-color: rgb(229, 243, 243); */
     font-size: 16px;
-    font-weight: 400;
 }
 
 .parrafo_c{
-    margin: 0px;
     padding: 180px 110px;
-    text-align: center;
     font-size: 23px;
 }
 
