@@ -179,7 +179,6 @@ body{
     border: rgb(169, 17, 100) solid 5px;
     border-radius: 50px;
     padding: 18px;
-    margin-left: 80px;
     margin-top: 20px;
     margin-bottom: 30px;
     font-size: 19px;
@@ -252,10 +251,10 @@ font-size: 310px;
 
 .flex{
     display: flex;
-    font-size: 32px;  
+    font-size: 32px;
     margin-top: -30px;
     margin-bottom: -30px;
-    
+
 }
 
 .flex img{
@@ -365,7 +364,7 @@ font-size: 310px;
 }
 
 @media screen and (max-width: 1280px){
-/* en todos los containers menos el 2 no hay nada que hacer, ese queda igual */
+/* en todos los containers menos el 2 y el 6 no hay nada que hacer, ese queda igual */
 
 /* container2 se le baja el font size */
 
@@ -380,5 +379,88 @@ font-size: 310px;
 
 .parrafo_c strong{
     font-size: 33px;
+}
+
+    /* container6 */
+
+.text{
+    font-size: 45px;
+}
+
+.texto{
+    margin-top: -40px;
+    text-align: justify;
+    font-size: 14px;
+}
+}
+
+@media screen and (max-width: 1152px){
+
+    /* trabajo del container2 */
+
+.container2{
+    font-size: 16px;
+}
+
+.parrafo_c{
+    padding: 180px 110px;
+    font-size: 18px;
+}
+
+.parrafo_c strong{
+    font-size: 29px;
+}
+
+    /* container3 */
+
+.titulo2 strong{
+    font-size: 40px;
+}
+
+.titulo2 p{
+    font-size: 14px;
+}
+
+    /* container5 */
+
+.obsequios{
+    width: 300px;
+    font-size: 35px;
+}
+
+.A{
+    margin-bottom: -360px;
+}
+
+.B{
+    font-size: 280px;
+}
+
+.C{
+    margin-top: -360px;
+}
+
+.contrato p{
+    font-size: 40px;
+}
+
+.contrato strong{
+    font-size: 75px;
+    letter-spacing: 4px;
+}
+
+.tituloyboton{
+    color: white;
+    margin-left: 90px;
+    margin-top: 100px;
+}
+
+.flex img{
+    margin-right: 25px;
+    width: 80px;
+}
+
+.boton4{
+    margin-left: -60px;
 }
 }
