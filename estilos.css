@@ -681,3 +681,39 @@ body{
     font-size: 45px;
 }
 }
+
+@media screen and (max-width: 768px){
+
+    /* container1 */
+
+.pregunta1{
+    font-size: 38px;
+}
+
+.boton{
+    padding: 12px;
+    font-size: 11px;
+}
+
+    /* container2 */
+
+.parrafo_c strong{
+    font-size: 18px;
+}
+
+/* container3 */
+
+.titulo2 p{
+    font-size: 12px;
+}
+
+    /* container6 */
+
+.container6 p{
+    margin-left: 60px;
+}
+
+.container6 button{
+    margin-left: 60px;
+}
+}
