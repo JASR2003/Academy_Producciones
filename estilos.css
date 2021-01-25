@@ -19,7 +19,6 @@ body{
     margin-bottom: -20px;
     padding-left: 10px;
     margin: 0px;
-    padding-top: 40px;
 }
 
 .container1{
@@ -119,8 +118,6 @@ body{
 
 .icon{
     border-color: rgb(253, 212, 22);
-    display: table-cell;
-    vertical-align: middle;
     text-align: center;
     padding: 0px 20px 40px;
 }
@@ -565,9 +562,7 @@ body{
 }
 
 .contenido{
-    display: contents;
-    margin: auto 100px;
-    width: 30%;
+    margin: auto 70px;
 }
 
     /* container4 */
@@ -715,5 +710,171 @@ body{
 
 .container6 button{
     margin-left: 60px;
+}
+}
+
+@media screen and (max-width: 425px){
+
+/* header */
+
+.container1 {
+    max-width: 100%;
+    text-align: center;
+    margin: 15px 60px;
+}
+
+.pregunta1{
+    font-size: 42px;
+    padding-left: 0px;
+    text-align: inherit;
+}
+
+.texto-header{
+    padding-left: 0px;
+    font-size: 10px;
+}
+
+
+.boton{
+    margin-left: 0px;
+    padding: 12px;
+    font-size: 11px;
+}
+
+    /* container2 */
+
+.parrafo_c{
+    padding: 180px 20px;
+    font-size: 12px;
+}
+
+.parrafo_c strong{
+    font-size: 16px;
+}
+
+    /* container3 */
+
+.titulo2{
+    display: inline;
+}
+
+.titulo2 strong{
+    width: 100%;
+    font-size: 32px;
+}
+
+.titulo2 p{
+    width: 100%;
+    font-size: 14px;
+}
+
+.contenido{
+    display: inline;
+}
+    /* container4 */
+
+.container4 p{
+    font-size: 30px;
+}
+
+.boton2{
+    padding: 12px;
+    font-size: 14px;
+}
+
+/* container5 */
+
+.container5{
+    height: 100%;
+}
+
+.obsequios{
+    height: 285px;
+    width: 240px;
+    font-size: 26px;
+    padding-top: 5px;
+    margin-left: calc(50% - 120px);;
+}
+    
+.A{
+    margin-bottom: -280px;
+}
+    
+.B{
+    font-size: 210px;
+}
+    
+.C{
+    margin-top: -280px;
+}
+    
+.contrato{
+    color: white;
+    text-align: center;
+    line-height: 65px;
+}
+    
+.contrato p{
+    margin-left: 60px;
+}
+
+.flex{
+    font-size: 22px;  
+}
+    
+.flex img{
+    margin-right: 30px;
+    width: 55px;
+}
+
+.boton4{
+    padding: 12px;
+    font-size: 14px;
+}
+
+/* .container6 */
+
+.container6{
+    width: 100%;
+}
+
+.container6 p{
+    margin: 30px 10px 20px 10px;
+}
+
+.text{
+    text-align: center;
+    font-size: 30px;
+}
+
+.texto{
+    margin-top: 0px;
+    font-size: 11px;
+}
+
+.container6 button{
+    margin-left: 0px;
+}
+
+/* container7 */
+
+.container7 p{
+    font-size: 25px;
+}
+
+/* container8 */
+
+.container8 p{
+    font-size: 25px;
+}
+
+/* container9 */
+
+.container9 p{
+    font-size: 25px;
+}
+.container9 button{
+    padding: 14px 30px;
+    font-size: 14px;
 }
 }
