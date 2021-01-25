@@ -878,3 +878,18 @@ body{
     font-size: 14px;
 }
 }
+
+@media screen and (max-width: 375px){
+
+    /* container1 */
+
+.pregunta1{
+    font-size: 36px;
+}
+
+/* container3 */
+
+.contrato p{
+    margin-left: 45px;
+}
+}
