@@ -14,8 +14,8 @@ body{
 
 .logo img{
     padding-top: 20px;
-    width:"180";
-    height:"70";
+    width:310px;
+    height:118px;
     margin-bottom: -20px;
     padding-left: 10px;
     margin: 0px;
@@ -181,9 +181,9 @@ body{
     background: linear-gradient(  rgb(131, 27, 122), rgb(160, 14, 87));
     display: flex;
     height: 450px;
-}
-
-.obsequios{
+    }
+    
+    .obsequios{
     margin-left: 35px;
     color: rgb(54, 184, 176);
     background-color: rgb(254, 213, 23);
@@ -194,58 +194,58 @@ body{
     font-size: 40px;
     font-weight: bold;
     text-align: center;
-}
-
-.A{
+    }
+    
+    .A{
     margin-bottom: -420px;
-}
-
-.B{
-font-size: 310px;
-}
-
-.C{
+    }
+    
+    .B{
+    font-size: 310px;
+    }
+    
+    .C{
     margin-top: -420px;
-}
-
-.contrato{
+    }
+    
+    .contrato{
     color: white;
     text-align: center;
     line-height: 65px;
-}
-
-.contrato p{
+    }
+    
+    .contrato p{
     margin-left: 40px;
     margin-top: 120px;
     font-size: 44px;
     font-weight: bold;
-}
-
-.contrato strong{
+    }
+    
+    .contrato strong{
     font-size: 90px;
     letter-spacing: 4px;
-}
-
-.tituloyboton{
+    }
+    
+    .tituloyboton{
     color: white;
     margin-left: 90px;
     margin-top: 100px;
-}
-
-.flex{
+    }
+    
+    .flex{
     display: flex;
     font-size: 32px;
     margin-top: -30px;
     margin-bottom: -30px;
-
-}
-
-.flex img{
+    
+    }
+    
+    .flex img{
     margin-right: 30px;
     width: 85px;
-}
-
-.boton4{
+    }
+    
+    .boton4{
     color: rgb(169, 17, 100);
     background-color: rgb(237, 210, 40);
     border: #edd228 solid 5px;
@@ -258,13 +258,13 @@ font-size: 310px;
     text-decoration: none;
     outline: none;
     margin-left: -50px;
-}
-
-.boton4:hover{
+    }
+    
+    .boton4:hover{
     background-color: rgb(27, 36, 35);
     border: rgb(27, 36, 35) solid;
     color: white;
-}
+    }
 /* .container6 */
 
 .container6{
@@ -513,5 +513,171 @@ font-size: 310px;
 
 .texto{
     font-size: 12.5px;
+}
+}
+
+@media screen and (max-width: 800px){
+
+    /* container1 */
+
+.logo img{
+    width: 240px;
+    height:100px;
+}
+
+.container1{
+    max-width: 45%;
+}
+
+.pregunta1{
+    font-size: 42px;
+}
+
+.texto-header{
+    font-size: 12px;
+    margin-top: -40px;
+}
+
+.boton{
+    padding: 12px;
+    font-size: 13px;
+}
+
+    /* container2 */
+
+.parrafo_c{
+    padding: 180px 90px;
+    font-size: 14px;
+}
+
+.parrafo_c strong{
+    font-size: 20px;
+}
+
+/* container3 */
+
+.titulo2 strong{
+    font-size: 32px;
+}
+
+.titulo2 p{
+    font-size: 15px;
+}
+
+.contenido{
+    display: contents;
+    margin: auto 100px;
+    width: 30%;
+}
+
+    /* container4 */
+
+.container4 p{
+    font-size: 50px;
+}
+
+    /* container5 */
+
+.container5{
+    display: flex;
+    flex-wrap: wrap;
+    height: 650px;
+}
+    
+.obsequios{
+    height: 285px;
+    width: 240px;
+    font-size: 26px;
+    padding-top: 5px;
+}
+    
+.A{
+    margin-bottom: -280px;
+}
+    
+.B{
+    font-size: 210px;
+}
+    
+.C{
+    margin-top: -280px;
+}
+    
+.contrato{
+    color: white;
+    text-align: center;
+    line-height: 65px;
+}
+    
+.contrato p{
+    margin-left: 120px;
+    margin-top: 60px;
+    font-size: 36px;
+    font-weight: bold;
+}
+    
+.contrato strong{
+    font-size: 68px;
+}
+    
+.tituloyboton{
+    color: white;
+    margin-left: 0px;
+    margin: 10px auto auto auto;
+}
+
+.flex{
+    display: flex;
+    justify-content: center;
+    font-size: 26px;
+    margin-top: -30px;
+    margin-bottom: -30px;
+    
+}
+    
+.flex img{
+    margin-right: 30px;
+    width: 65px;
+}
+    
+.boton4{
+    margin-left: 0px;
+}
+
+    /* container6 */
+
+.container6{
+    width: 50%;
+}
+
+.text{
+    font-size: 34px;
+}
+
+.texto{
+    font-size: 11px;
+}
+
+.container6 button{
+    padding: 12px;
+    font-size: 14px;
+}
+
+/* container7 */
+
+.container7 p{
+    font-size: 45px;
+}
+
+/* container8 */
+
+.container8 p{
+    font-size: 45px;
+}
+
+/* container9 */
+
+.container9 p{
+    font-size: 45px;
 }
 }
