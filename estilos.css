@@ -893,3 +893,26 @@ body{
     margin-left: 45px;
 }
 }
+
+@media screen and (max-width: 325px){
+
+        /* container1 */
+
+.logo img{
+    width: 220px;
+    height:90px;
+}
+
+
+.pregunta1{
+    font-size: 28px;
+}
+ /* container3 */
+ .titulo2 p{
+    font-size: 10px;
+}
+
+.contrato p{
+    margin-left: 20px;
+}   
+}
