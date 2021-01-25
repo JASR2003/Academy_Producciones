@@ -10,6 +10,7 @@ body{
 
 .header{
     background: linear-gradient(rgb(131, 27, 122), rgb(160, 14, 87) );
+    margin-top: -20px;
 }
 
 .logo img{
@@ -195,14 +196,17 @@ body{
     
     .A{
     margin-bottom: -420px;
+    transform: skew(-8deg, 0deg);
     }
     
     .B{
     font-size: 310px;
+    transform: skew(-8deg, 0deg);
     }
     
     .C{
     margin-top: -420px;
+    transform: skew(-8deg, 0deg);
     }
     
     .contrato{
@@ -317,6 +321,7 @@ body{
     background: linear-gradient(  rgb(131, 27, 122), rgb(160, 14, 87));
     text-align: center;
     padding-bottom: 60px;
+    margin-bottom: -20px;
 }
 
 .container9 p{
