@@ -18,6 +18,9 @@ body{
     background-color: rgb(54, 184, 176);
     margin-top: -20px;
     padding: 2rem 0;
+
+    position: fixed;
+    width: 100%;
 }
 
 .fija a{
@@ -43,6 +46,20 @@ body{
 
 .navigation ul li a{
     display: block;
+    padding: .5rem 1rem;
+}
+
+#h1{
+    font-size: 20px;
+    letter-spacing: 4px;
+}
+
+#h1:hover{
+    color: black;
+}
+
+.navigation ul li a:hover{
+    color: black;
 }
 
 /* header */
@@ -50,6 +67,7 @@ body{
 .header{
     background: linear-gradient(rgb(131, 27, 122), rgb(160, 14, 87) );
     margin-top: -20px;
+    padding-top: 100px;
 }
 
 .logo img{
