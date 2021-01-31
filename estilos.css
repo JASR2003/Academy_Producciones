@@ -12,11 +12,22 @@ body{
     width: 90%;
     max-width: 1100px;
     margin: 0 auto;
+    padding: 20px;
 }
 
 .fija{
     background-color: rgb(253, 212, 22);
-    margin: -20px;
+    margin-top: -20px;
+}
+
+.fija a{
+    color: white;
+    text-decoration: none;
+}
+
+.logo-nav-container{
+    display: flex;
+    justify-content: space-between;
 }
 
 /* header */
