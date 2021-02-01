@@ -64,6 +64,10 @@ body{
     color: black;
 }
 
+.menu-icon{
+    display: none;
+}
+
 /* header */
 
 .header{
@@ -591,6 +595,78 @@ body{
 
 @media screen and (max-width: 800px){
 
+    /* menu */
+
+.container{
+    width: 95%;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.fija{
+    background-color: rgb(54, 184, 176);
+    margin-top: -20px;
+    padding: 2rem 0;
+
+    position: fixed;
+    z-index: 2;
+    width: 100%;
+    max-width: 1440px;
+}
+
+.fija a{
+    color: white;
+    text-decoration: none;
+}
+
+.logo-nav-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.navigation{
+    width: 100%;
+    margin-top: 1rem;
+}
+
+.navigation ul{
+    display: none;
+}
+
+.navigation ul.show{
+    display: block;
+}
+
+.navigation ul li{
+    display: block;
+}
+
+.navigation ul li a{
+    display: block;
+    padding: .5rem 0rem;
+}
+
+#h1{
+    font-size: 20px;
+    letter-spacing: 3px;
+}
+
+#h1:hover{
+    color: black;
+}
+
+.navigation ul li a:hover{
+    color: black;
+}
+
+.menu-icon{
+    display: block;
+    cursor: pointer;
+}
+
+
     /* container1 */
 
 .logo img{
@@ -755,6 +831,10 @@ body{
 
 @media screen and (max-width: 768px){
 
+    #h1{
+    font-size: 18px;
+}
+
     /* container1 */
 
 .pregunta1{
@@ -790,6 +870,10 @@ body{
 }
 
 @media screen and (max-width: 425px){
+
+    #h1{
+    font-size: 16px;
+}
 
 /* header */
 
@@ -957,6 +1041,11 @@ body{
 
 @media screen and (max-width: 375px){
 
+    #h1{
+    font-size: 14px;
+    letter-spacing: 2px;
+}
+
     /* container1 */
 
 .pregunta1{
@@ -971,6 +1060,15 @@ body{
 }
 
 @media screen and (max-width: 325px){
+
+    .logo-nav-container{
+        padding: auto 0;
+    }
+
+        #h1{
+    font-size: 12px;
+    letter-spacing: 1px;
+}
 
         /* container1 */
 
