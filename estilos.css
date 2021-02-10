@@ -846,6 +846,11 @@ figure.logo{
     margin: inherit -10px;
 }
 
+.logo img {
+    width: 170px;
+    height: 70px;
+}
+
 /* header */
 
 .container1 {
@@ -1013,6 +1018,10 @@ figure.logo{
 @media screen and (max-width: 375px){
 
     /* container1 */
+    .logo img {
+    width: 170px;
+    height: 70px;
+}
 
 .pregunta1{
     font-size: 36px;
