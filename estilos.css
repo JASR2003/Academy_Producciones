@@ -17,7 +17,7 @@ body{
 .fija{
     background-color: rgb(131, 27, 122);
     margin-top: -20px;
-    padding: 2rem 0;
+    padding: 1rem 0 0 0;
 
     position: fixed;
     z-index: 2;
@@ -36,6 +36,16 @@ body{
     align-items: center;
 }
 
+figure.logo{
+    margin: 2.5px;
+}
+
+.logo img{
+    width:240px;
+    height:90px;
+    margin: 0px;
+}
+
 .navigation ul{
     margin: 0;
     padding: 0;
@@ -51,15 +61,6 @@ body{
     padding: .5rem 1rem;
 }
 
-#h1{
-    font-size: 20px;
-    letter-spacing: 4px;
-}
-
-#h1:hover{
-    color: black;
-}
-
 .navigation ul li a:hover{
     color: black;
 }
@@ -73,15 +74,6 @@ body{
 .header{
     background: linear-gradient(rgb(131, 27, 122), rgb(160, 14, 87) );
     padding-top: 100px;
-}
-
-.logo img{
-    padding-top: 20px;
-    width:310px;
-    height:118px;
-    margin-bottom: -20px;
-    padding-left: 10px;
-    margin: 0px;
 }
 
 .container1{
@@ -518,10 +510,6 @@ body{
 
 @media screen and (max-width: 1024px){
 
-    #h1{
-        font-size: 18px;
-        letter-spacing: 3px;
-    }
 
     .navigation ul li a{
         font-size: 12px;
@@ -605,7 +593,7 @@ body{
 
 .fija{
     margin-top: -20px;
-    padding: 2rem 0;
+    padding: 2rem 0 .5rem 0;
 
     position: fixed;
     z-index: 2;
@@ -623,6 +611,8 @@ body{
     justify-content: space-between;
     align-items: center;
     flex-wrap: wrap;
+    margin-top: -10px;
+    margin-bottom: -20px;
 }
 
 .navigation{
@@ -647,15 +637,6 @@ body{
     padding: .5rem 0rem;
 }
 
-#h1{
-    font-size: 20px;
-    letter-spacing: 3px;
-}
-
-#h1:hover{
-    color: black;
-}
-
 .navigation ul li a:hover{
     color: black;
 }
@@ -667,11 +648,6 @@ body{
 
 
     /* container1 */
-
-.logo img{
-    width: 240px;
-    height:100px;
-}
 
 .container1{
     max-width: 45%;
@@ -830,10 +806,6 @@ body{
 
 @media screen and (max-width: 768px){
 
-    #h1{
-    font-size: 18px;
-}
-
     /* container1 */
 
 .pregunta1{
@@ -870,8 +842,8 @@ body{
 
 @media screen and (max-width: 425px){
 
-    #h1{
-    font-size: 16px;
+.fija{
+    margin: inherit -10px;
 }
 
 /* header */
@@ -1040,11 +1012,6 @@ body{
 
 @media screen and (max-width: 375px){
 
-    #h1{
-    font-size: 14px;
-    letter-spacing: 2px;
-}
-
     /* container1 */
 
 .pregunta1{
@@ -1064,18 +1031,7 @@ body{
         padding: auto 0;
     }
 
-        #h1{
-    font-size: 12px;
-    letter-spacing: 1px;
-}
-
         /* container1 */
-
-.logo img{
-    width: 220px;
-    height:90px;
-}
-
 
 .pregunta1{
     font-size: 28px;
