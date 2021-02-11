@@ -15,7 +15,9 @@ body{
 }
 
 .fija{
-    background-color: rgb(131, 27, 122);
+    /* background-color: rgb(138, 24, 111); */
+    background-color: rgb(137, 24, 115);
+    /* background-color: rgb(131, 27, 122); */
     margin-top: -20px;
     padding: 1rem 0 0 0;
 
