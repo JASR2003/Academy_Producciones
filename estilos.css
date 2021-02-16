@@ -319,7 +319,7 @@ figure.logo{
     
     .boton4:hover{
     background-color: rgb(27, 36, 35);
-    border: rgb(27, 36, 35) solid;
+    border: rgb(27, 36, 35) 5px solid;
     color: white;
     }
 /* .container6 */
